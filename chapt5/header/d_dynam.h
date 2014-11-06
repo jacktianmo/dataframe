@@ -16,7 +16,7 @@ class dynamicClass{
 public:
 	dynamicClass(const T& m1,const T& m2);
 	dynamicClass(const dynamicClass<T>& 	obj);
-	~dynamic_cast();
+	~dynamicClass();
 
 	dynamicClass<T>& operator=(const dynamicClass<T>& rhs);
 
